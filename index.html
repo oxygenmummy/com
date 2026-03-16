@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>o2mummy studio | Vertical Integrated Creative</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;700&family=Shippori+Mincho:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans JP', sans-serif; }
+        .font-mincho { font-family: 'Shippori Mincho', serif; }
+        .reveal { animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1); }
+        @keyframes reveal {
+            0% { transform: translateY(30px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body class="bg-white text-black selection:bg-black selection:text-white">
+
+    <nav class="fixed w-full z-50 py-8 transition-all duration-500" id="navbar">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="flex flex-col text-left text-white" id="nav-logo">
+                <span class="text-xl font-bold tracking-tighter">o2mummy studio</span>
+                <span class="text-[10px] tracking-[0.2em] uppercase opacity-70">Vertical Integrated Creative</span>
+            </div>
+            <div class="hidden md:flex space-x-12 text-white text-xs uppercase tracking-widest font-medium" id="nav-links">
+                <a href="#vision" class="hover:opacity-50 transition-opacity">Vision</a>
+                <a href="#service" class="hover:opacity-50 transition-opacity">Service</a>
+                <a href="#brand" class="hover:opacity-50 transition-opacity">Brand</a>
+                <a href="#founder" class="hover:opacity-50 transition-opacity">Founder</a>
+                <a href="#contact" class="hover:opacity-50 transition-opacity">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative h-screen flex items-center justify-center overflow-hidden bg-black text-white">
+        <div class="absolute inset-0 opacity-40 bg-gradient-to-br from-gray-900 via-black to-gray-800"></div>
+        <div class="container mx-auto px-6 relative z-10 text-center reveal">
+            <span class="block text-xs uppercase tracking-[0.5em] mb-6 opacity-60">EST. 2003 | NEXT GENERATION STUDIO</span>
+            <h1 class="text-5xl md:text-8xl font-light tracking-tighter leading-tight mb-8">
+                DESIGN.<br>MARKETING.<br>MANAGEMENT.
+            </h1>
+            <p class="max-w-xl mx-auto text-gray-400 text-sm md:text-base leading-relaxed font-light tracking-wide mb-12">
+                デザインの解像度、マーケティングの俯瞰、経営の現実感。<br>垂直統合されたクリエイティブが、時代を超えるプロダクトを召喚する。
+            </p>
+            <a href="#service" class="inline-flex items-center border border-white/20 px-10 py-5 hover:bg-white hover:text-black transition-all duration-500 text-xs uppercase tracking-[0.2em]">
+                View Solution
+            </a>
+        </div>
+    </section>
+
+    <section id="vision" class="py-24 md:py-40 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-20 items-center">
+                <div>
+                    <p class="text-xs uppercase tracking-[0.3em] mb-4 text-gray-500">Philosophy</p>
+                    <h2 class="text-3xl md:text-5xl font-light tracking-tight mb-8">三位一体の視点</h2>
+                    <p class="text-gray-600 leading-relaxed mb-8">日本では「デザイナー」と「経営者」は対極に置かれがちです。しかし、世界を席巻するプロダクトは常にその境界線上にあります。</p>
+                    <div class="space-y-6 text-sm">
+                        <div class="flex items-start"><div class="w-12 h-[1px] bg-black mt-3 mr-4"></div><div><h4 class="font-bold">Designer</h4><p class="text-gray-500">理想の造形と体験、美学の追求。</p></div></div>
+                        <div class="flex items-start"><div class="w-12 h-[1px] bg-black mt-3 mr-4"></div><div><h4 class="font-bold">Marketer</h4><p class="text-gray-500">市場の解読と、隠れたUSPの発掘。</p></div></div>
+                        <div class="flex items-start"><div class="w-12 h-[1px] bg-black mt-3 mr-4"></div><div><h4 class="font-bold">Manager</h4><p class="text-gray-500">数字のリアリティと、持続可能な構造設計。</p></div></div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-12 aspect-square flex flex-col justify-center border-l-4 border-black font-mincho">
+                    <h3 class="text-4xl font-light italic mb-6">"今を保存する"</h3>
+                    <p class="text-sm text-gray-500 leading-loose">
+                        ネットワークを通じて皆が同じものを見ている、この特殊な時代の空気を、ファッションとアートを通して後世に残したい。22歳のZ世代としての死生観が、o2mummy studioの根底にあります。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="founder" class="py-24 md:py-40 bg-gray-50 border-t border-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <p class="text-xs uppercase tracking-[0.3em] mb-4 text-gray-500">Founder</p>
+                <div class="flex flex-col md:flex-row gap-12 items-end">
+                    <div class="flex-1">
+                        <h3 class="text-5xl font-light tracking-tighter mb-2">松尾 祐之介</h3>
+                        <p class="text-gray-400 uppercase tracking-widest text-xs mb-8">Yunosuke Matsuo</p>
+                        <div class="space-y-4 text-sm text-gray-600">
+                            <p><strong>Born:</strong> 2003.04.09 (東京都町田市出身)</p>
+                            <p><strong>Education:</strong> 東北芸術工科大学 デザイン工学部 プロダクトデザイン学科 卒</p>
+                            <p class="leading-relaxed pt-4">
+                                プロダクトデザインの高度な造形教育を受けながら、在学中より個人事業主として活動。
+                                デジタルファブリケーションによる多品種少量生産を追求し、自社ブランド「o2mummy」を立ち上げる。
+                                経営・マーケ・デザインを統合した独自のスタイルで事業を展開。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-black text-white py-24">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-light mb-8 italic">Let's Design the System.</h2>
+            <p class="text-gray-500 text-sm mb-12">info@o2mummy-studio.com</p>
+            <p class="text-[10px] tracking-widest text-gray-600 uppercase">© 2026 o2mummy studio / Yunosuke Matsuo.</p>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            const logo = document.getElementById('nav-logo');
+            const links = document.getElementById('nav-links');
+            if (window.scrollY > 50) {
+                nav.classList.add('bg-white', 'shadow-sm', 'py-4');
+                nav.classList.remove('py-8');
+                logo.classList.replace('text-white', 'text-black');
+                links.classList.replace('text-white', 'text-black');
+            } else {
+                nav.classList.remove('bg-white', 'shadow-sm', 'py-4');
+                nav.classList.add('py-8');
+                logo.classList.replace('text-black', 'text-white');
+                links.classList.replace('text-black', 'text-white');
+            }
+        });
+    </script>
+</body>
+</html>
